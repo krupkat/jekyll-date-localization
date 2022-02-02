@@ -8,7 +8,7 @@ Jekyll Date Localization is a liquid filter plugin for formatting a date with a 
 
 ## Installation
 
-This plugin is available as a [RubyGem][https://rubygems.org/].
+This plugin is available as a [RubyGem](https://rubygems.org/gems/jekyll-date-localization).
 
 There are a few ways to install the plugin ([docs](https://jekyllrb.com/docs/plugins/installation/)), e.g. by adding this line to your application's `Gemfile`:
 
