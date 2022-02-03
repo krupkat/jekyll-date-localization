@@ -6,6 +6,8 @@
 
 Jekyll Date Localization is a liquid filter plugin for formatting a date with a custom locale. The idea is based on [jekyll-i18n-date](https://github.com/uwolf/jekyll-i18n-date) however this package provides a gem-based plugin with a couple of locales already included for ease of use.
 
+This is a simple plugin only for localizing dates, for larger scale translation capabilities check this [list of plugins](https://github.com/planetjekyll/awesome-jekyll-plugins#multi-language--multi-lingual).
+
 ## Installation
 
 This plugin is available as a [RubyGem](https://rubygems.org/gems/jekyll-date-localization).
