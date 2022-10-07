@@ -1,0 +1,47 @@
+---
+tr:
+  date:
+    abbr_day_names:
+    - Paz
+    - Pzt
+    - Sal
+    - Çar
+    - Per
+    - Cum
+    - Cts
+    abbr_month_names:
+    -
+    - Oca
+    - Şub
+    - Mar
+    - Nis
+    - May
+    - Haz
+    - Tem
+    - Ağu
+    - Eyl
+    - Eki
+    - Kas
+    - Ara
+    day_names:
+    - Pazar
+    - Pazartesi
+    - Salı
+    - Çarşamba
+    - Perşembe
+    - Cuma
+    - Cumartesi
+    month_names:
+    -
+    - Ocak
+    - Şubat
+    - Mart
+    - Nisan
+    - Mayıs
+    - Haziran
+    - Temmuz
+    - Ağustos
+    - Eylül
+    - Ekim
+    - Kasım
+    - Aralık
