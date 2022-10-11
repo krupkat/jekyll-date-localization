@@ -33,13 +33,13 @@ date_locale: cs
 In your markup, simply use the `localize` liquid filter made available through this plugin:
 
 ```
-{{ page.date | localize '%d. %B %Y' }}
+{{ page.date | localize: '%d. %B %Y' }}
 ```
 
 By default the value of `date_locale` is used to select the language. Alternatively you can also directly specify the language:
 
 ```
-{{ page.date | localize '%d. %B %Y', 'fr' }}
+{{ page.date | localize: '%d. %B %Y', 'fr' }}
 ```
 
 For details about the formatting string, see [strftime](https://ruby-doc.org/stdlib-2.6.1/libdoc/date/rdoc/DateTime.html#method-i-strftime) documentation. The localized entries are `%b %B %a %A`.
