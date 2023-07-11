@@ -1,3 +1,4 @@
+require 'date'
 require 'i18n'
 
 module Jekyll
@@ -5,6 +6,9 @@ module Jekyll
     def localize(input, format=nil, locale=nil)
       load_translations
       locale = locale || @context.registers[:site].config["date_locale"]
+      if input.is_a?(String)
+        input = DateTime.parse(input)
+      end
       I18n.l input, :format => format, :locale => locale
     end
 
