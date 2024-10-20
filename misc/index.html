@@ -1,0 +1,59 @@
+---
+weekdays: 
+  - 2024-10-14 12:00:00 +0000
+  - 2024-10-15 12:00:00 +0000
+  - 2024-10-16 12:00:00 +0000
+  - 2024-10-17 12:00:00 +0000
+  - 2024-10-18 12:00:00 +0000
+  - 2024-10-19 12:00:00 +0000
+  - 2024-10-20 12:00:00 +0000
+months:
+  - 2024-01-01 12:00:00 +0000
+  - 2024-02-01 12:00:00 +0000
+  - 2024-03-01 12:00:00 +0000
+  - 2024-04-01 12:00:00 +0000
+  - 2024-05-01 12:00:00 +0000
+  - 2024-06-01 12:00:00 +0000
+  - 2024-07-01 12:00:00 +0000
+  - 2024-08-01 12:00:00 +0000
+  - 2024-09-01 12:00:00 +0000
+  - 2024-10-01 12:00:00 +0000
+  - 2024-11-01 12:00:00 +0000
+  - 2024-12-01 12:00:00 +0000
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+  <h3>Language</h3>
+  <p>{{ site.date_locale }}</p>
+  <h3>Abbreviated day names</h3>
+  <ul>
+    {%- for day in page.weekdays %}
+      <li>{{ day | localize: '%a' }}</li>
+    {%- endfor %}
+  </ul>
+  <h3>Full day names</h3>
+  <ul>
+    {%- for day in page.weekdays %}
+      <li>{{ day | localize: '%A' }}</li>
+    {%- endfor %}
+  </ul>
+  <h3>Abbreviated month names</h3>
+  <ul>
+    {%- for month in page.months %}
+      <li>{{ month | localize: '%b' }}</li>
+    {%- endfor %}
+  </ul>
+  <h3>Full month names</h3>
+  <ul>
+    {%- for month in page.months %}
+      <li>{{ month | localize: '%B' }}</li>
+    {%- endfor %}
+  </ul>
+  </body>
+</html>
