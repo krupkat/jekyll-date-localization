@@ -11,18 +11,18 @@ fi:
     - La
     abbr_month_names:
     - 
-    - Tammi
-    - Helmi
-    - Maalis
-    - Huhti
-    - Touko
-    - Kesä
-    - Heinä
+    - Tam
+    - Hel
+    - Maa
+    - Huh
+    - Tou
+    - Kes
+    - Hei
     - Elo
-    - Syys
-    - Loka
-    - Marras
-    - Joulu
+    - Syy
+    - Lok
+    - Mar
+    - Jou
     day_names:
     - Sunnuntai
     - Maanantai
