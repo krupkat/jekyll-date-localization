@@ -1,0 +1,47 @@
+---
+fi:
+  date:
+    abbr_day_names:
+    - Su
+    - Ma
+    - Ti
+    - Ke
+    - To
+    - Pe
+    - La
+    abbr_month_names:
+    - 
+    - Tammi
+    - Helmi
+    - Maalis
+    - Huhti
+    - Touko
+    - Kesä
+    - Heinä
+    - Elo
+    - Syys
+    - Loka
+    - Marras
+    - Joulu
+    day_names:
+    - Sunnuntai
+    - Maanantai
+    - Tiistai
+    - Keskiviikko
+    - Torstai
+    - Perjantai
+    - Lauantai
+    month_names:
+    - 
+    - Tammikuu
+    - Helmikuu
+    - Maaliskuu
+    - Huhtikuu
+    - Toukokuu
+    - Kesäkuu
+    - Heinäkuu
+    - Elokuu
+    - Syyskuu
+    - Lokakuu
+    - Marraskuu
+    - Joulukuu
