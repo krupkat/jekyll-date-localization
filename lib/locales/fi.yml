@@ -11,18 +11,18 @@ fi:
     - La
     abbr_month_names:
     - 
-    - Tam
-    - Hel
-    - Maa
-    - Huh
-    - Tou
-    - Kes
-    - Hei
+    - Tammi
+    - Helmi
+    - Maalis
+    - Huhti
+    - Touko
+    - Kesä
+    - Heinä
     - Elo
-    - Syy
-    - Lok
-    - Mar
-    - Jou
+    - Syys
+    - Loka
+    - Marras
+    - Joulu
     day_names:
     - Sunnuntai
     - Maanantai
@@ -33,15 +33,15 @@ fi:
     - Lauantai
     month_names:
     - 
-    - Tammikuu
-    - Helmikuu
-    - Maaliskuu
-    - Huhtikuu
-    - Toukokuu
-    - Kesäkuu
-    - Heinäkuu
-    - Elokuu
-    - Syyskuu
-    - Lokakuu
-    - Marraskuu
-    - Joulukuu
+    - Tammikuuta
+    - Helmikuuta
+    - Maaliskuuta
+    - Huhtikuuta
+    - Toukokuuta
+    - Kesäkuuta
+    - Heinäkuuta
+    - Elokuuta
+    - Syyskuuta
+    - Lokakuuta
+    - Marraskuuta
+    - Joulukuuta
