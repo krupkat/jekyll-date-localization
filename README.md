@@ -22,10 +22,11 @@ And then execute the `bundle` command to install the gem.
 
 ## Configuration
 
-You can configure the default locale in your `config.yml` file:
+You can configure the default locale and the path to your custom language files in your `_config.yml` file:
 
-```
+```yml
 date_locale: cs
+locales_path: src/_locales
 ```
 
 ## Usage
@@ -46,7 +47,7 @@ For details about the formatting string, see [strftime](https://ruby-doc.org/std
 
 ## Additional languages
 
-There are a couple of built-in languages in this repository in the [lib/locales](https://github.com/krupkat/jekyll-date-localization/tree/main/lib/locales) directory. If you want to add your own language file or override one of the included languages, create a new `*.yml` language definition file and put it in the `_locales` directory of your project.
+There are a couple of built-in languages in this repository in the [lib/locales](https://github.com/krupkat/jekyll-date-localization/tree/main/lib/locales) directory. If you want to add your own language file or override one of the included languages, create a new `*.yml` language definition file and put it in the `_locales` directory of your project. This path can be customized by setting the `locales_path` option in your `_config.yml`.
 
 # Contribute
 

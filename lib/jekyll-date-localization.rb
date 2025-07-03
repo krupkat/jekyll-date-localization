@@ -14,8 +14,9 @@ module Jekyll
 
     def load_translations
       unless I18n::backend.instance_variable_get(:@translations)
+        locales_path = @context.registers[:site].config["locales_path"] || "_locales"
         I18n.backend.load_translations \
-          Dir[File.join(File.dirname(__FILE__),'locales/*.yml')] + Dir['_locales/*.yml']
+          Dir[File.join(File.dirname(__FILE__),'locales/*.yml')] + Dir[File.join(locales_path, '*.yml')]
       end
     end
   end
