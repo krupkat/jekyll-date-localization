@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name = 'jekyll-date-localization'
-    s.version = '0.0.8'
+    s.version = '0.0.9'
     s.summary = "Liquid filter for custom locale date formatting."
     s.authors = ["krupkat"]
     s.files = ["lib/jekyll-date-localization.rb"] + Dir['lib/locales/*.yml']
